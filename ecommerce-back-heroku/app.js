@@ -58,7 +58,7 @@ const port = process.env.PORT || 8000;
 
 //step 3
 if(process.env.NODE_ENV === 'production'){
-	app.use(express.static('client/build'));
+	app.use(express.static('../ecommerce-front/build'));
 }
 
 
